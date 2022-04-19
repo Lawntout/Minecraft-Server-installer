@@ -1,0 +1,1 @@
+sudo apt-get update && sudo apt-get upgrade && apt install openjdk-17-jre-headless && sudo apt install tmux && mkdir serv && cd serv && wget https://ci.pufferfish.host/job/Pufferfish-1.18/lastSuccessfulBuild/artifact/build/libs/pufferfish-paperclip-1.18.2-R0.1-SNAPSHOT-reobf.jar && java -jar pufferfish-paperclip-1.18.2-R0.1-SNAPSHOT-reobf.jar && nano eula.txt
